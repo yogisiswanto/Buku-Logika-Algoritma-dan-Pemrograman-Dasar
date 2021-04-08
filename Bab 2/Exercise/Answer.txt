@@ -1,0 +1,5 @@
+1.
+    a. Memberikan informasi pembuatan kode program
+    b. Memberikan informasi tujuan dibuatnya sebuah prosedur, fungsi, atau metode.
+    c. Memberikan informasi fungsi variabel atau konstanta
+    d. Memberikan informasi langkah-langkah jalannya program

@@ -1,0 +1,6 @@
+1. Algoritma -> solusi
+    Algoritma adalah solusi dari suatu masalah yang harus dipecahkan dengan menggunakan komputer
+
+2. Algoritma sendiri ditemukan oleh seorang matematikawan yakni Al-Khawarizmi pada abad ke-9 masehi dengan nama algoritmi
+
+3. PHP, Pascal, C, C++, C#, Java, Kotlin, Dart, Javascript. dsb.
