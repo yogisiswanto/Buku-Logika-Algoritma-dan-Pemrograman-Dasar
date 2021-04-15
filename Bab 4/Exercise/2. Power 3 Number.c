@@ -1,6 +1,6 @@
 /*
  *  Name Program    : Power 3 Number
- *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 3
+ *  Purpose         : Answer question from exercise Chapter 4 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
  *  Date Created    : 15th April 2021

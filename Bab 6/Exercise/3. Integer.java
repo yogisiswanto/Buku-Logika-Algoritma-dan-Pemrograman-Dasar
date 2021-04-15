@@ -1,15 +1,27 @@
+/*
+ *  Name Program    : Integer
+ *  Purpose         : Answer question from exercise Chapter 6 from Logic Algorithm and Basic Programming Book
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 15th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+    // Main function
     public static void main(String[] args){
 
+        // Variable declaration
         int[] input = new int[5];
-
-        System.out.println("Masukan lima buah angka satu persatu, tekan enter setiap selesai memasukkan");
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Masukan lima buah angka satu persatu, tekan enter setiap selesai memasukkan");
+
+        // Get input from console
         try{
             
             input[0] = sc.nextInt();
@@ -22,6 +34,7 @@ public class Main{
 
         }
 
+        // Print to console
         System.out.println("Angka ke 1 = " + input[0]);
         System.out.println("Angka ke 2 = " + input[1]);
         System.out.println("Angka ke 3 = " + input[2]);

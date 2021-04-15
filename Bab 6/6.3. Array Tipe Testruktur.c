@@ -1,6 +1,6 @@
 /*
  *  Name Program    : Array Tipe Testruktur
- *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 3
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 6
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
  *  Date Created    : 15th April 2021
