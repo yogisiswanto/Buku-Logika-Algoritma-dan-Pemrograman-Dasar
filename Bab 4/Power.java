@@ -1,27 +1,41 @@
+/*
+ *  Name Program    : Power
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 15th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+    // Main function
     public static void main(String[] args){
 
-    int a;
-    int b;
+        // Variable instantiation
+        int a;
+        int b;
 
-    System.out.println("Masukan angka, lalu tekan enter");
+        Scanner sc = new Scanner(System.in);
 
-    Scanner sc = new Scanner(System.in);
-
-    try{
+        System.out.println("Masukan angka, lalu tekan enter");
+       
+        // Get input from console
+        try{
+            
+            a = sc.nextInt();
         
-        a = sc.nextInt();
-    
-    }catch(Exception e){
+        }catch(Exception e){
 
-    }
+        }
 
-    b = a * a;
-    
-    System.out.println(b);
+        // Calculate power
+        b = a * a;
+        
+        // Print to console
+        System.out.println(b);
 
     }
 }

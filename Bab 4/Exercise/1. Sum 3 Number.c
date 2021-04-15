@@ -1,7 +1,18 @@
+/*
+ *  Name Program    : Sum 3 Number
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 3
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 15th April 2021
+ *  Language        : C Language
+ */
+
 #include <stdio.h>
 
+// Main function
 int main(){
 
+    // Variable instantiation
     int a;
     int b;
     int c;
@@ -9,15 +20,15 @@ int main(){
 
     printf("Masukan tiga angka satu persatu, tekan enter setiap selesai memasukkan\n");
 
+    // Get input from console
     scanf("%d", &a);
-    printf("\n");
     scanf("%d", &b);
-    printf("\n");
     scanf("%d", &c);
-    printf("\n");
 
+    // Calculate Sum 3 Number
     d = a + b + c;
 
+    // Print to console
     printf("%d", d);
     
     return 0;

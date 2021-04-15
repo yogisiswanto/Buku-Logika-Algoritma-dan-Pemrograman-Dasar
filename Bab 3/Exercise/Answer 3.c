@@ -1,3 +1,12 @@
+/*
+ *  Name Program    : Answer 3
+ *  Purpose         : Answer question from exercise Chapter 3 from Logic Algorithm and Basic Programming Book
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 14th April 2021
+ *  Language        : C Language
+ */
+
 #include <stdio.h>
 
 int main() {

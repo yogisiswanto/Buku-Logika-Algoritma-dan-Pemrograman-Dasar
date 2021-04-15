@@ -1,0 +1,55 @@
+/*
+ *  Name Program    : alpaka14
+ *  Purpose         : Solve CSPC Challange
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 5th January 2021
+ *  Language        : C Language
+ */
+
+/*
+    Diberikan 6 buah karakter, dimana secara acak merupakan karakter alphabet dan karakter angka. Tampilkan di layar karakter-karakter itu dengan menampilkan karakter alphabet, kemudian diikuti karakter angka begitu seterusnya jika angka masukan memiliki 3 karakter alphabet dan 3 karakter angka. Jika tidak memenuhi syarat maka tampilkan tidak valid. Karakter angka hanya satu digit.
+
+    Format Masukan:
+    
+        6 buah karakter masukan
+
+    Format Keluaran:
+    
+        karakter dengan format alphabet angka atau tidak valid
+
+    Contoh Masukan
+    ===============
+
+    a
+    b
+    5
+    6
+    r
+    7
+
+    Contoh Keluaran
+    ===============
+
+    a
+    5
+    b
+    6
+    r
+    7
+
+    Contoh Masukan 2
+    ===============
+
+    9
+    b
+    5
+    6
+    r
+    7
+
+    Contoh Keluaran 2
+    ===============
+    
+    tidak valid
+*/

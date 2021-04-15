@@ -1,36 +1,43 @@
+/*
+ *  Name Program    : Sum
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 15th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+    // Main function
     public static void main(String[] args){
 
-    int a;
-    int b;
-    int c;
+        // Variable instantiation
+        int a;
+        int b;
+        int c;
 
-    System.out.println("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan");
+        Scanner sc = new Scanner(System.in);
 
-    Scanner sc = new Scanner(System.in);
+        System.out.println("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan");
 
-    try{
+        // Get input from console
+        try{
+            
+            a = sc.nextInt();
+            b = sc.nextInt();
         
-        a = sc.nextInt();
-    
-    }catch(Exception e){
+        }catch(Exception e){
 
-    }
+        }
 
-    try{
+        // Calculate sum
+        c = a + b;
         
-        b = sc.nextInt();
-    
-    }catch(Exception e){
-
-    }
-
-    c = a + b;
-    
-    System.out.println(c);
+        // Print to console
+        System.out.println(c);
 
     }
 }

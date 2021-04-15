@@ -1,31 +1,45 @@
+/*
+ *  Name Program    : Volume
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 15th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+    // Main function
     public static void main(String[] args){
 
-    int p;
-    int l;
-    int t;
-    int v;
+        // Variable instantiation
+        int p;
+        int l;
+        int t;
+        int v;
 
-    System.out.println("Masukan panjang, lebar, tinggi lalu tekan enter untuk setiap angka");
+        Scanner sc = new Scanner(System.in);
 
-    Scanner sc = new Scanner(System.in);
-
-    try{
+        System.out.println("Masukan panjang, lebar, tinggi lalu tekan enter untuk setiap angka");
+       
+        // Get input from console
+        try{
+            
+            p = sc.nextInt();
+            l = sc.nextInt();
+            t = sc.nextInt();
         
-        p = sc.nextInt();
-        l = sc.nextInt();
-        t = sc.nextInt();
-    
-    }catch(Exception e){
+        }catch(Exception e){
 
-    }
+        }
 
-    v = p * l * t;
-    
-    System.out.println(v);
+        // Calculate volume
+        v = p * l * t;
+        
+        // Print to console
+        System.out.println(v);
 
     }
 }

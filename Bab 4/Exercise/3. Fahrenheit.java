@@ -1,27 +1,41 @@
+/*
+ *  Name Program    : Fahrenheit
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 3
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 15th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+    // Main function
     public static void main(String[] args){
 
-    int celcius;
-    int fahrenheit;
+        // Variable instantiation
+        int celcius;
+        int fahrenheit;
 
-    System.out.println("Masukan derajat celcius");
+        Scanner sc = new Scanner(System.in);
 
-    Scanner sc = new Scanner(System.in);
-
-    try{
+        System.out.println("Masukan derajat celcius");
         
-        celcius = sc.nextInt();
-    
-    }catch(Exception e){
+        // Get input from console
+        try{
+            
+            celcius = sc.nextInt();
+        
+        }catch(Exception e){
 
-    }
+        }
 
-    fahrenheit = ((9 * celcius) / 5) + 32;
-    
-    System.out.println(fahrenheit);
+        // Calculate from celcius to fahrenheit
+        fahrenheit = ((9 * celcius) / 5) + 32;
+        
+        // Print to console
+        System.out.println(fahrenheit);
 
     }
 }
