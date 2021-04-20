@@ -1,25 +1,39 @@
+/*
+ *  Name Program    : Kelipatan 5
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 20th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+    // Main function
     public static void main(String[] args){
 
+        // Variable instantiation
         int bilangan = 0;
-
-        System.out.println("masukkan bilangan:");
 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("masukkan bilangan:");
+
+        // Get input from console
         try{
 
             bilangan = sc.nextInt();
         
         }catch(Exception e){
 
-            if(bilangan % 5 == 0){
-                
-                System.out.println("kelipatan 5");
-            }
+        }
+
+        // Condition when number multiple of 5
+        if(bilangan % 5 == 0){
+            
+            System.out.println("kelipatan 5");
         }
     }
 }
