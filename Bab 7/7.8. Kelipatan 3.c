@@ -21,14 +21,18 @@ int main(){
     // Get input from console
     scanf("%f", &a);
 
+    // Convert float to integer
     depan = a;
+    
+    // Get number after decimal point
     belakang = (a - depan) * 100;
 
-    
+    // Condition when front number is multiple of 3 and back number is multiple of 3
     if((depan % 3 == 0) && (belakang % 3 == 0)){
 
         printf("Memenuhi syarat\n");
     
+    // Alternate condition
     }else{
 
         printf("Tidak memenuhi syarat\n");

@@ -1,16 +1,28 @@
+/*
+ *  Name Program    : Konsonan-Vokal-Konsonan
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 20th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+    // Main function
     public static void main(String[] args){
 
+        // Variable declaration
         char a, b, c;
         boolean tanda;
 
-        System.out.println("Masukan 3 huruf lalu tekan enter setiap setelah memasukan 1 huruf");
-
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Masukan 3 huruf lalu tekan enter setiap setelah memasukan 1 huruf");
+
+        // Get input from console 
         try{
 
             a = sc.next().charAt(0);
@@ -20,27 +32,32 @@ public class Main{
         }catch(Exception e){
         }
 
+        // Variable inisialize
         tanda = false;
 
-        // Periksa konsonan
-    if((a != 'a') && (a != 'i') && (a != 'u') && (a != 'e') && (a != 'o')){
+        // Check Consonan
+        if((a != 'a') && (a != 'i') && (a != 'u') && (a != 'e') && (a != 'o')){
 
-        if((b != 'a') || (b != 'i') || (b != 'u') || (b != 'e') || (b != 'o')){
+            // Check vokal
+            if((b != 'a') || (b != 'i') || (b != 'u') || (b != 'e') || (b != 'o')){
 
-            if((c != 'a') && (c != 'i') && (c != 'u') && (c != 'e') && (c != 'o')){
-            
-                tanda = true;
-            }
-        }  
-    }
+                // Chek Consonan
+                if((c != 'a') && (c != 'i') && (c != 'u') && (c != 'e') && (c != 'o')){
+                
+                    tanda = true;
+                }
+            }  
+        }
 
-    if(tanda == true){
+        // Condition when tanda is equal with 1
+        if(tanda == true){
 
-        System.out.println("Konsonan-Vokal-Konsonan");
-    
-    }else{
+            System.out.println("Konsonan-Vokal-Konsonan");
+        
+        // Alternate condition
+        }else{
 
-        System.out.println("Bukan Konsonan-Vokal-Konsonan");
-    }
+            System.out.println("Bukan Konsonan-Vokal-Konsonan");
+        }
     }
 }
