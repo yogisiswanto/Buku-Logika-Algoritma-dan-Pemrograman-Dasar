@@ -1,18 +1,30 @@
+/*
+ *  Name Program    : Hasil Faktorial
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 8
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 21th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+	// Main function
 	public static void main(String[] args) {
 		
-
+		// Variable declaration
 		int fak_berapa, penghitung, hasil_faktorial;
 
+		Scanner sc = new Scanner(System.in);
+
+		// Variable initialization
 		hasil_faktorial = 1;
 
 		System.out.println("Masukan angka faktorial yang akan dihitung:");
 
-		Scanner sc = new Scanner(System.in);
-
+		// Get input from console
 		try{
 
 			fak_berapa = sc.nextInt();
@@ -21,12 +33,13 @@ public class Main{
 
 		}
 
-
+		// Loop for calculate factorial from input
 		for (penghitung = 2; penghitung <= fak_berapa; penghitung++)
 		{
 			hasil_faktorial = hasil_faktorial * penghitung;
 		}
 
-		System.out.println("Hasil Faktorial = " + hasil_faktorial);
+		// Print to console
+		System.out.println(hasil_faktorial);
 	}
 }
