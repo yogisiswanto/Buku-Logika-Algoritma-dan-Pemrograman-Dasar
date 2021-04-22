@@ -1,15 +1,27 @@
+/*
+ *  Name Program    : Sum Odd Value in Array
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 8
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 22th April 2021
+ *  Language        : Java Language
+ */
+
 import java.util.Scanner;
 
 public class Main{
 
+	// Main function
 	public static void main(String[] args) {
 		
+		// Variable declaration
 		int [] arrayInteger = new int[5];
 		int penghitung = 0;
 		int jumlah = 0;
 
 		Scanner sc = new Scanner(System.in);
 
+		// Loop for getting input from console
 		for (penghitung = 0; penghitung < 5; penghitung++)
 		{
 			System.out.println("Masukan angka:\n");
@@ -25,8 +37,10 @@ public class Main{
 			System.out.println();
 		}
 
+		// Variable inisialization
 		jumlah = 0;
 
+		// Loop for sum odd value from array of integer
 		for (penghitung = 0; penghitung < 5; penghitung++)
 		{
 			if (arrayInteger[penghitung] % 2 == 1)
@@ -35,6 +49,7 @@ public class Main{
 			}
 		}
 
+		// Print to console
 		System.out.println(jumlah);
 
 	}

@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Pola Bintang Satu Baris
+ *  Name Program    : Repeat Do-While
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 8
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,26 +15,25 @@ public class Main{
 	public static void main(String[] args) {
 		
 		// Variable declaration
-		int penghitung, bintang;
+		char jawaban;
 
+		// Getting input from console first, and then check
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Masukan banyaknya bintang:");
+		do{
+		
+			System.out.println("Halo dunia!");
 
-		// Get input from console
-		try{
+			System.out.println("Apakah anda ingin menampilkan lagi?");
 
-			bintang = sc.nextInt();
+			try{
 
-		}catch(Exception e){
+				jawaban = sc.next().charAt(0);
 
-		}
+			}catch(Exception e){
 
-		// Loop for print to console the start pattern
-		for (penghitung = 0; penghitung < bintang; penghitung++)
-		{
-			
-			System.out.println("*");
-		}
+			}
+
+		} while (jawaban == 'y');
 	}
 }

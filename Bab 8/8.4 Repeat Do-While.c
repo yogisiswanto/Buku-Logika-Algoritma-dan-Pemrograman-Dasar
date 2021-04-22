@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Pola Bintang Baris Kolom
+ *  Name Program    : Repeat Do-While
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 8
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -13,25 +13,22 @@
 int main(){
 	
 	// Variable declaration
-	int baris, kolom, bintang;
+	char jawaban;
 
-	printf("Masukan banyaknya bintang:\n");
-
-	// Get input from console
-	scanf("%d", &bintang);
-
-	// Loop for print to console the start pattern
-	for (baris = 0; baris < bintang; baris++)
-	{
+	// Getting input from console first, and then check
+	do{
 		
-		for (kolom = 0; kolom < bintang; kolom++)
-		{
-			
-			printf("*");
-		}
-		
+		printf("Halo dunia!\n");
+
+		printf("Apakah anda ingin menampilkan lagi?\n");
+
+		scanf("%c", &jawaban);
+
+		while(getchar() != '\n');
+
 		printf("\n");
-	}
+
+	} while (jawaban == 'y');
 
 	return 0;   
 }
