@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Reamur
+ *  Name Program    : Sum 3 Number
  *  Purpose         : Answer question from exercise Chapter 4 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -13,19 +13,29 @@
 int main(){
 
     // Variable instantiation
-    int celcius;
-    int reamur;
+    int a;
+    int b;
+    int c;
+    int d;
 
-    printf("Masukan derajat celcius\n");
+    printf("Masukan tiga angka satu persatu, tekan enter setiap selesai memasukkan\n");
 
     // Get input from console
-    scanf("%d", &celcius);
+    /* 
+        Example
+        2
+        3
+        4
+     */
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
 
-    // Calculate from celcius to reamur
-    reamur = (4 * celcius) / 5;
+    // Calculate Sum 3 Number
+    d = a + b + c;
 
     // Print to console
-    printf("%d", reamur);
+    printf("%d", d);
     
     return 0;
 }

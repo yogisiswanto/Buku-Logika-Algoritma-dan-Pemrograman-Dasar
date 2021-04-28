@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Sum
+ *  Name Program    : Power
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,29 +15,27 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        int a;
-        int b;
-        int c;
+        int a = 0;
+        int b = 0;
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan");
-
-        // Get input from console
+        System.out.println("Masukan angka, lalu tekan enter");
+       
+        // Get input from console. Example = 5
         try{
             
             a = sc.nextInt();
-            b = sc.nextInt();
         
         }catch(Exception e){
 
         }
 
-        // Calculate sum
-        c = a + b;
+        // Calculate power
+        b = a * a;
         
         // Print to console
-        System.out.println(c);
+        System.out.println(b);
 
     }
 }

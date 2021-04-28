@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Keyboard Input
+ *  Name Program    : Area of Triangle
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -10,16 +10,24 @@
 #include <stdio.h>
 
 // Main function
-int main()[
+int main(){
 
     // Variable instantiation
-    int bilBulat;
+    int a;
+    int t;
+    int l;
+
+    printf("Masukan alas dan tinggi lalu tekan enter untuk setiap angka\n");
 
     // Get input from console
-    scanf("%d", &bilBulat);
+    scanf("%d", &a); // Example = 2
+    scanf("%d", &t); // Example = 3
+
+    // Calculate area of triangle
+    l = 0.5 * (float)a * (float)t;
 
     // Print to console
-    printf("\nBilangan bulat masukan adalah: %d\n", bilBulat);
-
+    printf("%d", l);
+    
     return 0;
-]
+}

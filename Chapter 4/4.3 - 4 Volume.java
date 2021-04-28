@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Keyboard Input
+ *  Name Program    : Volume
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -9,25 +9,43 @@
 
 import java.util.Scanner;
 
-public class Main{
+public class Volume{
 
     // Main function
     public static void main(String[] args){
 
         // Variable instantiation
-        int bilBulat;
+        int p = 0;
+        int l = 0;
+        int t = 0;
+        int v = 0;
+
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Masukan panjang, lebar, tinggi lalu tekan enter untuk setiap angka");
+       
         // Get input from console
+        /*
+            Example
+            2
+            3
+            4
+        */
         try{
             
-            bilBulat = sc.nextInt();
+            p = sc.nextInt();
+            l = sc.nextInt();
+            t = sc.nextInt();
         
         }catch(Exception e){
 
         }
 
+        // Calculate volume
+        v = p * l * t;
+        
         // Print to console
-        System.out.println("bilangan bulat masukan adalah: " + bilBulat);
+        System.out.println(v);
+
     }
 }

@@ -21,6 +21,12 @@ int main(){
     printf("Masukan sisi alas, sisi atas, tinggi satu persatu, lalu tekan enter\n");
 
     // Get input from console
+    /* 
+        Example
+        2
+        3
+        4
+     */
     scanf("%d", &alas);
     scanf("%d", &atas);
     scanf("%d", &tinggi);

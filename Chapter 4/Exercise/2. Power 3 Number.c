@@ -21,6 +21,12 @@ int main(){
     printf("Masukan tiga angka satu persatu, lalu tekan enter setelahnya\n");
 
     // Get input from console
+    /* 
+        Example
+        2
+        3
+        4
+    */
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%d", &c);

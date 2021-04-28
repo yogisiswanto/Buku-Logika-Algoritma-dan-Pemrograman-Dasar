@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Fahrenheit
+ *  Name Program    : Trapesium
  *  Purpose         : Answer question from exercise Chapter 4 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,27 +15,37 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        int celcius;
-        int fahrenheit;
+        int alas = 0;
+        int atas = 0;
+        int tinggi = 0;
+        double luas = 0;
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukan derajat celcius");
-        
+        System.out.println("Masukan sisi alas, sisi atas, tinggi satu persatu, lalu tekan enter");
+
         // Get input from console
+        /* 
+            Example
+            2
+            3
+            4
+         */
         try{
             
-            celcius = sc.nextInt();
+            alas = sc.nextInt();
+            atas = sc.nextInt();
+            tinggi = sc.nextInt();
         
         }catch(Exception e){
 
         }
 
-        // Calculate from celcius to fahrenheit
-        fahrenheit = ((9 * celcius) / 5) + 32;
+        // Calculate area of trapesium
+        luas = 0.5 * (alas + atas) * tinggi;
         
         // Print to console
-        System.out.println(fahrenheit);
+        System.out.println(luas);
 
     }
 }

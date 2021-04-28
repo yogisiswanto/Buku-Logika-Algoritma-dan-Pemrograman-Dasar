@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Volume
+ *  Name Program    : Keyboard Input
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -13,23 +13,13 @@
 int main(){
 
     // Variable instantiation
-    int p;
-    int l;
-    int t;
-    int v;
+    int bilBulat;
 
-    printf("Masukan panjang, lebar, tinggi lalu tekan enter untuk setiap angka\n");
-
-    // Get input from console
-    scanf("%d", &p);
-    scanf("%d", &l);
-    scanf("%d", &t);
-
-    // Calculate volume
-    v = p * l * t;
+    // Get input from console. Example = 5
+    scanf("%d", &bilBulat);
 
     // Print to console
-    printf("%d", v);
-    
+    printf("\nBilangan bulat masukan adalah: %d\n", bilBulat);
+
     return 0;
 }

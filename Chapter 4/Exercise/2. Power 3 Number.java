@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Sum 3 Number
+ *  Name Program    : Power 3 Number
  *  Purpose         : Answer question from exercise Chapter 4 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,16 +15,22 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        int a;
-        int b;
-        int c;
-        int d;
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        int d = 0;
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukan tiga angka satu persatu, tekan enter setiap selesai memasukkan");
-
+        System.out.println("Masukan tiga angka satu persatu, lalu tekan enter setelahnya");
+        
         // Get input from console
+        /* 
+            Example
+            2
+            3
+            4
+        */
         try{
             
             a = sc.nextInt();
@@ -36,7 +42,7 @@ public class Main{
         }
 
         // Calculate Sum 3 Number
-        d = a + b + c;
+        d = a * b * c;
         
         // Print to console
         System.out.println(d);

@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Power
+ *  Name Program    : Volume
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -13,19 +13,29 @@
 int main(){
 
     // Variable instantiation
-    int a;
-    int b;
+    int p;
+    int l;
+    int t;
+    int v;
 
-    printf("Masukan angka, lalu tekan enter\n");
+    printf("Masukan panjang, lebar, tinggi lalu tekan enter untuk setiap angka\n");
 
     // Get input from console
-    scanf("%d", &a);
+    /*
+        Example
+        2
+        3
+        4
+     */
+    scanf("%d", &p);
+    scanf("%d", &l);
+    scanf("%d", &t);
 
-    // Calculate power
-    b = a * a;
+    // Calculate volume
+    v = p * l * t;
 
     // Print to console
-    printf("%d", b);
+    printf("%d", v);
     
     return 0;
 }

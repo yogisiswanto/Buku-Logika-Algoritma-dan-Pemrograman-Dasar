@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Area of Triangle
+ *  Name Program    : Sum
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -14,20 +14,20 @@ int main(){
 
     // Variable instantiation
     int a;
-    int t;
-    int l;
+    int b;
+    int c;
 
-    printf("Masukan alas dan tinggi lalu tekan enter untuk setiap angka\n");
+    printf("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan\n");
 
     // Get input from console
-    scanf("%d", &a);
-    scanf("%d", &t);
+    scanf("%d", &a); // Example = 2
+    scanf("%d", &b); // Example = 3
 
-    // Calculate area of triangle
-    l = 0.5 * (float)a * (float)t;
+    // Calculate sum
+    c = a + b;
 
     // Print to console
-    printf("%d", l);
+    printf("%d", c);
     
     return 0;
 }

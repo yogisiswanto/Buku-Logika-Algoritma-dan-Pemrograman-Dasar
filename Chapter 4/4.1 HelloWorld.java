@@ -7,10 +7,10 @@
  *  Language        : Java Language
  */
 
-public class Main{
+public class HelloWorld{
 
     // Main function
-    public static void main(Strin[] args){
+    public static void main(String[] args){
 
         // Print to console
         System.out.println("Halo Dunia");

@@ -1,6 +1,6 @@
 /*
- *  Name Program    : Area of Triangle
- *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
+ *  Name Program    : Fahrenheit
+ *  Purpose         : Answer question from exercise Chapter 4 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
  *  Date Created    : 15th April 2021
@@ -15,29 +15,27 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        int a;
-        int t;
-        int l;
+        int celcius = 0;
+        int fahrenheit = 0;
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukan alas dan tinggi lalu tekan enter untuk setiap angka");
-       
-        // Get input from console
+        System.out.println("Masukan derajat celcius");
+        
+        // Get input from console. Example = 5
         try{
             
-            a = sc.nextInt();
-            t = sc.nextInt();
+            celcius = sc.nextInt();
         
         }catch(Exception e){
 
         }
 
-        // Calculate area of triangle
-        l = 0.5 * (float)a * (float)t;
+        // Calculate from celcius to fahrenheit
+        fahrenheit = ((9 * celcius) / 5) + 32;
         
         // Print to console
-        System.out.println(l);
+        System.out.println(fahrenheit);
 
     }
 }

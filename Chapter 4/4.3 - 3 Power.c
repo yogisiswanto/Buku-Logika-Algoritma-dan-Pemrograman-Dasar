@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Sum
+ *  Name Program    : Power
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 4
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,19 +15,17 @@ int main(){
     // Variable instantiation
     int a;
     int b;
-    int c;
 
-    printf("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan\n");
+    printf("Masukan angka, lalu tekan enter\n");
 
-    // Get input from console
+    // Get input from console. Example = 2
     scanf("%d", &a);
-    scanf("%d", &b);
 
-    // Calculate sum
-    c = a + b;
+    // Calculate power
+    b = a * a;
 
     // Print to console
-    printf("%d", c);
+    printf("%d", b);
     
     return 0;
 }

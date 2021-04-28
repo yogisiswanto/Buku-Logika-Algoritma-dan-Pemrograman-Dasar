@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Answer 3
+ *  Name Program    : Casting Integer to Char
  *  Purpose         : Answer question from exercise Chapter 3 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -24,8 +24,7 @@ int main() {
     result = (char) temporary;
     
     // Print char
-    printf("%c", result);
-    
+    printf("%c", result);    
     
     return 0;
 }

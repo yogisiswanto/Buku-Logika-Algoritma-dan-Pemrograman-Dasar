@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Trapesium
+ *  Name Program    : Reamur
  *  Purpose         : Answer question from exercise Chapter 4 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,31 +15,27 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        int alas;
-        int atas;
-        int tinggi;
-        int luas;
+        int celcius = 0;
+        int reamur = 0;
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukan sisi alas, sisi atas, tinggi satu persatu, lalu tekan enter");
+        System.out.println("Masukan derajat celcius");
 
-        // Get input from console
+        // Get input from console. Example = 5
         try{
             
-            alas = sc.nextInt();
-            atas = sc.nextInt();
-            tinggi = sc.nextInt();
+            celcius = sc.nextInt();
         
         }catch(Exception e){
 
         }
 
-        // Calculate area of trapesium
-        luas = 0.5 * (alas + atas) * tinggi;
+        // Calculate from celcius to reamur
+        reamur = (4 * celcius) / 5;
         
         // Print to console
-        System.out.println(luas);
+        System.out.println(reamur);
 
     }
 }

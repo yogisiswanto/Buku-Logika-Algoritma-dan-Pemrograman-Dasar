@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Reamur
+ *  Name Program    : Sum 3 Number
  *  Purpose         : Answer question from exercise Chapter 4 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,27 +15,37 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        int celcius;
-        int reamur;
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        int d = 0;
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukan derajat celcius");
+        System.out.println("Masukan tiga angka satu persatu, tekan enter setiap selesai memasukkan");
 
         // Get input from console
+        /* 
+            Example
+            2
+            3
+            4
+        */
         try{
             
-            celcius = sc.nextInt();
+            a = sc.nextInt();
+            b = sc.nextInt();
+            c = sc.nextInt();
         
         }catch(Exception e){
 
         }
 
-        // Calculate from celcius to reamur
-        reamur = (4 * celcius) / 5;
+        // Calculate Sum 3 Number
+        d = a + b + c;
         
         // Print to console
-        System.out.println(reamur);
+        System.out.println(d);
 
     }
 }
