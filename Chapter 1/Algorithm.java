@@ -1,5 +1,5 @@
 /*
- *  Name Program    : algoritma
+ *  Name Program    : Algorithm
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 1
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -7,7 +7,7 @@
  *  Language        : Java Language
  */
 
-public class Main{
+public class Main {
 
     // Main function
     public static void main(String []args){
@@ -26,6 +26,7 @@ public class Main{
         // Process
         kentang = kentang + pisau;
 
+        // Variable reinisialization
         pisau = 0;
         
         // End of process

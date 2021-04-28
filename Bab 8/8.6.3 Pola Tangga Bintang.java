@@ -1,15 +1,26 @@
-import java.util.Scanner;
+/*
+ *  Name Program    : Pola Tangga Bintang
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 8
+ *  Author          : Yogi Siswanto
+ *  Email           : yogisiswanto.c2@gmail.com
+ *  Date Created    : 28th April 2021
+ *  Language        : Java Language
+ */
+
+import java.util.Scanner; 
 
 public class Main{
 
+	// Main function
 	public static void main(String[] args) {
 		
+		// Variable declaration
 		int baris, kolom, bintang;
+		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Masukan banyaknya bintang:");
 
-		Scanner sc = new Scanner(System.in);
-
+		// Get input from console
 		try{
 
 			bintang = sc.nextInt();
@@ -18,6 +29,7 @@ public class Main{
 
 		}
 
+		// Loop for star print look like stair
 		for (baris = 0; baris < bintang; baris++)
 		{
 			

@@ -1,9 +1,9 @@
 /*
- *  Name Program    : Real
+ *  Name Program    : String
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 3
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
- *  Date Created    : 14th April 2021
+ *  Date Created    : 28th April 2021
  *  Language        : C Language
  */
 
@@ -13,15 +13,10 @@
 int main(){
 
     // Variable instantiation
-    float bilanganRiil;
-    int bilanganBulat;
-
-    // Variable inisialization
-    bilanganBulat = 59;
-    bilanganRiil = bilanganBulat;
+    char string[99] = "aku adalah anak gembala";
 
     // Print value of floating point
-    printf("%0.2f", bilanganRiil);
+    printf("%s", string);
 
     return 0;
 }

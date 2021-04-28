@@ -1,5 +1,5 @@
 /*
- *  Name Program    : algoritma
+ *  Name Program    : Algorithm
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 1
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -26,6 +26,7 @@ int main(){
     // Process
     kentang = kentang + pisau;
 
+    // Variable reinisialization
     pisau = 0;
 
     // End of process

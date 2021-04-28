@@ -1,9 +1,9 @@
 /*
- *  Name Program    : Real
+ *  Name Program    : Booelan
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 3
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
- *  Date Created    : 14th April 2021
+ *  Date Created    : 28th April 2021
  *  Language        : Java Language
  */
 
@@ -13,14 +13,14 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        float bilanganRiil = 0f;
-        int bilanganBulat = 0;
+        boolean yes;;
+        boolean no;
 
         // Variable inisialization
-        bilanganBulat = 59;
-        bilanganRiil = bilanganBulat;
+        yes = true;
+        no = false;
 
         // Print value of floating point
-        System.out.println(bilanganRiil);
+        System.out.println("True in java = " + yes +" and false in java = " + no);
     }
 }
