@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Kalkulator
+ *  Name Program    : Calculator
  *  Purpose         : Answer question from exercise Chapter 5 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,7 +15,7 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        int firstInput, secondInput, add, substraction, multiplication, divide;
+        int firstInput = 0, secondInput = 0, add = 0, substraction = 0, multiplication = 0, divide = 0;
 
         Scanner sc = new Scanner(System.in);
 

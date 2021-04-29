@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Luas Persegi
+ *  Name Program    : Square Area
  *  Purpose         : Answer question from exercise Chapter 5 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,7 +15,7 @@ public class Main{
     public static void main(String[] args){
 
         // Variable instantiation
-        int luas, panjang, lebar;
+        int luas = 0, panjang = 0, lebar = 0;
 
         Scanner sc = new Scanner(System.in);
 
@@ -24,8 +24,8 @@ public class Main{
         // Get input from console
         try{
             
-            panjang = sc.nextInt();
-            lebar = sc.nextInt();
+            panjang = sc.nextInt(); // Example = 2
+            lebar = sc.nextInt(); // Example = 3
         
         }catch(Exception e){
 

@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Kalkulator
+ *  Name Program    : Calculator
  *  Purpose         : Answer question from exercise Chapter 5 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -18,8 +18,8 @@ int main(){
     printf("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan\n");
 
     // Get input from console
-    scanf("%d", &firstInput);
-    scanf("%d", &secondInput);
+    scanf("%d", &firstInput); // Example = 2
+    scanf("%d", &secondInput); // Example = 3
 
     // Calculate input
     add = firstInput + secondInput;

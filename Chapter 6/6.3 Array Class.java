@@ -8,7 +8,7 @@
  */
 
 //  Class of titik
-Class Titik{
+class Titik{
 
     // Variable instantiation
     double x;

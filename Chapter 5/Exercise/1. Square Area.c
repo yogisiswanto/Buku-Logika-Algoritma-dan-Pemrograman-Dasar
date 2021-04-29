@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Luas Persegi
+ *  Name Program    : Square Area
  *  Purpose         : Answer question from exercise Chapter 5 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -18,8 +18,8 @@ int main(){
     printf("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan\n");
 
     // Get input from console
-    scanf("%d", &panjang);
-    scanf("%d", &lebar);
+    scanf("%d", &panjang); // Example = 2
+    scanf("%d", &lebar); // Example = 3
 
     // Calculate large of square
     luas = panjang * lebar;
