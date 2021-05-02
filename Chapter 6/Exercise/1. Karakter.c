@@ -18,11 +18,20 @@ int main(){
     printf("Masukan lima buah karakter satu persatu, lalu tekan enter\n");
 
     // Get input from console
-    scanf("%c", &input[0]);
-    scanf("%c", &input[1]);
-    scanf("%c", &input[2]);
-    scanf("%c", &input[3]);
-    scanf("%c", &input[4]);
+    /* 
+        Example
+        a
+        b
+        c
+        d
+        e
+        f
+     */
+    scanf(" %c", &input[0]);
+    scanf(" %c", &input[1]);
+    scanf(" %c", &input[2]);
+    scanf(" %c", &input[3]);
+    scanf(" %c", &input[4]);
 
     // Print to console
     printf("Karakter ke 1 = %c\n", input[0]);

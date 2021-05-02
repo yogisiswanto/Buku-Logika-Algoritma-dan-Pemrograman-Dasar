@@ -18,11 +18,19 @@ int main(){
     printf("Masukan lima buah angka secara berurutan, lalu tekan enter setelahnya\n");
 
     // Get input from console
+    /* 
+        Example
+        1
+        2
+        3
+        4
+        5
+     */
     scanf("%d", &input[0]);
-    scanf("%d", &input[0]);
-    scanf("%d", &input[0]);
-    scanf("%d", &input[0]);
-    scanf("%d", &input[0]);
+    scanf("%d", &input[1]);
+    scanf("%d", &input[2]);
+    scanf("%d", &input[3]);
+    scanf("%d", &input[4]);
 
     // Print to console
     printf("Angka ke - 1 = %d\n", input[0]);

@@ -18,11 +18,19 @@ int main(){
     printf("Masukan lima buah kata secara berurutan, lalu tekan enter setelahnya\n");
 
     // Get input from console
-    scanf(" %s", &input[0]);
-    scanf(" %s", &input[0]);
-    scanf(" %s", &input[0]);
-    scanf(" %s", &input[0]);
-    scanf(" %s", &input[0]);
+    /* 
+        Example
+        aku
+        adalah
+        anak
+        gembala
+        selalu
+     */
+    scanf("%s", &input[0]);
+    scanf("%s", &input[1]);
+    scanf("%s", &input[2]);
+    scanf("%s", &input[3]);
+    scanf("%s", &input[4]);
 
     // Print to console
     printf("Kata ke - 1 = %s\n", input[0]);

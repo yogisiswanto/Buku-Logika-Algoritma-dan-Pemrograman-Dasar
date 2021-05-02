@@ -22,13 +22,22 @@ public class Main{
         System.out.println("Masukan lima buah karakter satu persatu, tekan enter setiap selesai memasukkan");
 
         // Get input from console
+        /* 
+            Example
+            a
+            b
+            c
+            d
+            e
+            f
+        */
         try{
             
-            input[0] = sc.nextInt();
-            input[1] = sc.nextInt();
-            input[2] = sc.nextInt();
-            input[3] = sc.nextInt();
-            input[4] = sc.nextInt();
+            input[0] = sc.next().charAt(0);
+            input[1] = sc.next().charAt(0);
+            input[2] = sc.next().charAt(0);
+            input[3] = sc.next().charAt(0);
+            input[4] = sc.next().charAt(0);
         
         }catch(Exception e){
 

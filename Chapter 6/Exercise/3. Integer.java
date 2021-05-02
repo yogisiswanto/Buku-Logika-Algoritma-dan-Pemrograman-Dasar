@@ -22,6 +22,14 @@ public class Main{
         System.out.println("Masukan lima buah angka satu persatu, tekan enter setiap selesai memasukkan");
 
         // Get input from console
+        /* 
+            Example
+            1
+            2
+            3
+            4
+            5
+        */
         try{
             
             input[0] = sc.nextInt();
