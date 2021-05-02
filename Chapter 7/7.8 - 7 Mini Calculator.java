@@ -1,9 +1,9 @@
 /*
- *  Name Program    : Mini Kalkulator
-  *  Purpose         : Answer question from exercise Chapter 7 from Logic Algorithm and Basic Programming Book
+ *  Name Program    : Mini Calculator
+ *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
- *  Date Created    : 19th April 2021
+ *  Date Created    : 20th April 2021
  *  Language        : Java Language
  */
 
@@ -22,6 +22,11 @@ public class Main{
         System.out.println("Masukan dua buah angka, untuk setiap angka tekan enter");
 
         // Get input from console
+        /* 
+            Example
+            2
+            2
+        */
         try{
 
             angkaPertama = sc.nextInt();
@@ -33,10 +38,9 @@ public class Main{
 
         System.out.println("Menu:");
         System.out.println("1. Tambah");
-        System.out.println("2. Kali");
-        System.out.println("3. Kurang");
+        System.out.println("2. Kurang");
+        System.out.println("3. Kali");
 
-        // Get input from console
         try{
 
             menu = sc.nextInt();
@@ -50,29 +54,29 @@ public class Main{
 
             switch(menu){
 
-                // Condition when menu is equals with 1
+                // Condition when menu is equal with 1
                 case 1 : {
                     
                     hasil = angkaPertama + angkaKedua;
                     break;
                 }
 
-                // Condition when menu is equals with 2
+                // Condition when menu is equal with 2
                 case 2 : {
-
-                    hasil = angkaPertama * angkaKedua;
-                    break;
-                }
-
-                // Condition when menu is equals with 3
-                case 3 : {
 
                     hasil = angkaPertama - angkaKedua;
                     break;
                 }
+
+                // Condition when menu is equal with 3
+                case 3 : {
+
+                    hasil = angkaPertama * angkaKedua;
+                    break;
+                }
             }
         
-        // Condition when input is not sanitize
+        // Condition when menu is not in list
         }else{
 
             hasil = 0;
@@ -81,7 +85,5 @@ public class Main{
 
         // Print to console
         System.out.println(hasil);
-
-
     }
 }

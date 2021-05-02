@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Hitung Lembur
+ *  Name Program    : Overtime Calculate
  *  Purpose         : Answer question from exercise Chapter 7 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -15,7 +15,7 @@ public class Main{
     public static void main(String[] args){
 
         // Variable declaration
-        int jamLembur;
+        int jamLembur = 0;
 
         Scanner sc = new Scanner(System.in);
 

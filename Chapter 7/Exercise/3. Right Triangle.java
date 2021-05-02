@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Segitiga Siku-siku
+ *  Name Program    : Right Triangle
  *  Purpose         : Answer question from exercise Chapter 7 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -19,9 +19,19 @@ public class Main{
 
         Scanner sc = new Scanner(System.in);
 
+        alas = 0;
+        tinggi = 0;
+        sisiMiring = 0;
+
         System.out.println("Masukan alas, tinggi, sisi miring dari segitiga, tekan enter setiap memasukan angka");
 
         // Get input from console
+        /* 
+            Example
+            3
+            4
+            5
+        */
         try{
 
             alas = sc.nextInt();

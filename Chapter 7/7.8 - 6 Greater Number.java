@@ -19,9 +19,19 @@ public class Main{
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Masukan dua buah bilangan bulat lalu tekan enter untuk setiap angkanya");
+        angkaPertama = 0;
+        angkaKedua = 0;
+        angkaKetiga = 0;
+
+        System.out.println("Masukan ketiga bilangan");
 
         // Get input from console
+        /* 
+            Example
+            1
+            2
+            3
+        */
         try{
 
             angkaPertama = sc.nextInt();

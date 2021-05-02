@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Cek Kubus
+ *  Name Program    : Cube Check
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -22,6 +22,18 @@ public class Main{
         System.out.println("Masukan ketiga sisi");
 
         // Get input from console
+        /* 
+            Example
+            2
+            2
+            2
+
+            or 
+
+            1
+            2
+            3
+        */
         try{
 
             sisiPertama = sc.nextInt();

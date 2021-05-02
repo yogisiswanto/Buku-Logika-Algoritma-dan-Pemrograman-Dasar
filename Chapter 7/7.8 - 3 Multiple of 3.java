@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Kelipatan 3
+ *  Name Program    : Multiple of 3
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -22,7 +22,7 @@ public class Main{
 
         System.out.println("Masukan bilangan riil");
         
-        // Get input from console
+        // Get input from console. Example 1.33
         try{
 
             a = sc.nextDouble();
@@ -32,10 +32,10 @@ public class Main{
         }
 
         // Convert float to integer
-        depan = a;
+        depan = (int) a;
 
         // Get number after decimal point
-        belakang = (a - depan) * 100;
+        belakang = (int) (a - depan) * 100;
 
         // Condition when front number is multiple of 3 and back number is multiple of 3
         if((depan % 3 == 0) && (belakang % 3 == 0)){

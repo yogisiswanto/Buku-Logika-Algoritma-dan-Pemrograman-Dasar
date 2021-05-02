@@ -18,6 +18,12 @@ int main(){
     printf("Masukan ketiga bilangan\n");
 
     // Get input from console
+    /* 
+        Example
+        1
+        2
+        3
+     */
     scanf("%d", &angkaPertama);
     scanf("%d", &angkaKedua);
     scanf("%d", &angkaKetiga);

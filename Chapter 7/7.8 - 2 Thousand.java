@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Ribuan
+ *  Name Program    : Thousand
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -23,6 +23,12 @@ public class Main{
         System.out.println("Masukan 3 angka lalu tekan enter setiap setelah memasukan 1 huruf");
 
         // Get input from console
+        /* 
+            Example
+            1000
+            2000
+            3000
+        */
         try{
 
             a = sc.nextInt();

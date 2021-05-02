@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Mini Kalkulator
+ *  Name Program    : Mini Calculator
  *  Purpose         : Answer question from exercise Chapter 7 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -14,44 +14,48 @@ int main(){
 
     // Variable declaration
     int angkaPertama, angkaKedua, hasil, menu;
+    hasil = 0;
 
     printf("Masukan dua buah angka, untuk setiap angka tekan enter\n");
 
     // Get input from console
+    /* 
+        Example
+        2
+        2
+     */
     scanf("%d", &angkaPertama);
     scanf("%d", &angkaKedua);
 
-    printf("Menu:\n
-    1. Tambah\n
-    2. Kali\n
-    3. Kurang\n");
+    printf("Menu:\n1. Tambah\n2. Kali\n3. Kurang\n");
 
     // Get input from console
     scanf("%d", &menu);
 
     // Sanitize input
-    if((menu >= 1) && (menu <= 3)){
+    if((menu >= 1) || (menu <= 3)){
 
         switch(menu){
 
             // Condition when menu is equals with 1
-            case 1 : {
+            case 1 : 
                 
                 hasil = angkaPertama + angkaKedua;
-            }
+            break;
 
             // Condition when menu is equals with 2
-            case 2 : {
+            case 2 :
 
                 hasil = angkaPertama * angkaKedua;
 
-            }
+            break;
 
             // Condition when menu is equals with 3
-            case 3 : {
+            case 3 :
 
                 hasil = angkaPertama - angkaKedua;
-            }
+            
+            break;
         }
     
     // Condition when input is not sanitize

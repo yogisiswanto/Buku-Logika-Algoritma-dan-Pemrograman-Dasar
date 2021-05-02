@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Konsonan-Vokal-Konsonan
+ *  Name Program    : Consonan-Vocal-Consonan
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -19,9 +19,15 @@ int main(){
     printf("Masukan 3 huruf lalu tekan enter setiap setelah memasukan 1 huruf\n");
 
     // Get input from console
-    scanf("%c", &a);
-    scanf("%c", &b);
-    scanf("%c", &c);
+    /* 
+        Example
+        b
+        a
+        c
+     */
+    scanf(" %c", &a);
+    scanf(" %c", &b);
+    scanf(" %c", &c);
 
     // Variable inisialize
     tanda = 0;
@@ -48,7 +54,7 @@ int main(){
     // Alternate condition
     }else{
 
-        prinft("Bukan Konsonan-Vokal-Konsonan\n");
+        printf("Bukan Konsonan-Vokal-Konsonan\n");
     }
     return 0;
 }

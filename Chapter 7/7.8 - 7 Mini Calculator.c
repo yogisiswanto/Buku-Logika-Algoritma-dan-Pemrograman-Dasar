@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Mini Kalkulator
+ *  Name Program    : Mini Calculator
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -18,13 +18,15 @@ int main(){
     printf("Masukan dua buah angka, untuk setiap angka tekan enter\n");
 
     // Get input from console
+    /* 
+        Example
+        2
+        2
+     */
     scanf("%d", &angkaPertama);
     scanf("%d", &angkaKedua);
 
-    printf("Menu:\n
-    1. Tambah\n
-    2. Kurang\n
-    3. Kali\n");
+    printf("Menu:\n1. Tambah\n2. Kurang\n3. Kali\n");
 
     scanf("%d", &menu);
 

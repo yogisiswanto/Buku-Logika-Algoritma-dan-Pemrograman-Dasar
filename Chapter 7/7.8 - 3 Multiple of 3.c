@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Kelipatan 3
+ *  Name Program    : Multiple of 3
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -18,7 +18,7 @@ int main(){
 
     printf("Masukan bilangan riil\n");
     
-    // Get input from console
+    // Get input from console. Example 1.33
     scanf("%f", &a);
 
     // Convert float to integer

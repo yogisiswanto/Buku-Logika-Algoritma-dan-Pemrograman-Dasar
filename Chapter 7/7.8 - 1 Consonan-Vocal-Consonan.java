@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Konsonan-Vokal-Konsonan
+ *  Name Program    : Consonan-Vocal-Consonan
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -18,11 +18,22 @@ public class Main{
         char a, b, c;
         boolean tanda;
 
+        // Variable inisialization
+        a = '\0';
+        b = '\0';
+        c = '\0';
+
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan 3 huruf lalu tekan enter setiap setelah memasukan 1 huruf");
 
-        // Get input from console 
+        // Get input from console
+        /* 
+            Example
+            b
+            a
+            c
+        */ 
         try{
 
             a = sc.next().charAt(0);

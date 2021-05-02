@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Cek Kubus
+ *  Name Program    : Cube Check
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -18,6 +18,18 @@ int main(){
     printf("Masukan ketiga sisi\n");
 
     // Get input from console
+    /* 
+        Example
+        2
+        2
+        2
+
+        or 
+
+        1
+        2
+        3
+     */
     scanf("%d", &sisiPertama);
     scanf("%d", &sisiKedua);
     scanf("%d", &sisiKetiga);

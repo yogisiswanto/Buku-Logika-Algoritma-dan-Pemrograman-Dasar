@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Hitung Lembur
+ *  Name Program    : Overtime Calculate
  *  Purpose         : Answer question from exercise Chapter 7 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com

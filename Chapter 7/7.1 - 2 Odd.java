@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Ganjil
+ *  Name Program    : Odd
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -21,19 +21,20 @@ public class Main{
 
         System.out.println("masukkan bilangan:");
 
-        // Get input from console
+        // Get input from console. Example 5
         try{
 
             bilangan = sc.nextInt();
         
         }catch(Exception e){
-
+        
         }
 
-        // Condition when input is even
-        if(bilangan % 2 == 0){
+        // Condition when input is odd
+        if(bilangan % 2 == 1){
                 
-            System.out.println("bilangan genap");
+            System.out.println("bilangan ganjil");
         }
+
     }
 }

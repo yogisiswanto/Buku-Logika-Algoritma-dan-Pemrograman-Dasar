@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Ribuan
+ *  Name Program    : Thousand
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -18,6 +18,12 @@ int main(){
     printf("Masukan 3 angka lalu tekan enter setiap setelah memasukan 1 huruf\n");
 
     // Get input from console
+    /* 
+        Example
+        1000
+        2000
+        3000
+     */
     scanf("%d", &a);
     scanf("%d", &b);
     scanf("%d", &c);
@@ -47,7 +53,7 @@ int main(){
     // Alternate condition
     }else{
 
-        prinft("Tidak semua angka masukan adalah ribuan\n");
+        printf("Tidak semua angka masukan adalah ribuan\n");
     }
     return 0;
 }

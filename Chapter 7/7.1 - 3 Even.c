@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Genap
+ *  Name Program    : Even
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 7
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -17,7 +17,7 @@ int main(){
 
     printf("Masukan bilangan: \n");
 
-    // Get input from console
+    // Get input from console. Example 2
     scanf("%d", &bilangan);
 
     // Condition when input is even
