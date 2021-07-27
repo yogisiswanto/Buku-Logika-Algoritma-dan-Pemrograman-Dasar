@@ -20,6 +20,7 @@ public class Main{
         // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
+        // Variable inisialization
         alas = 0;
         tinggi = 0;
         sisiMiring = 0;

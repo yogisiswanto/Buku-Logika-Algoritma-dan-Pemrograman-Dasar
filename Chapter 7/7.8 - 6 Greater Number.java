@@ -20,6 +20,7 @@ public class Main{
         // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
+        // Variable inisialization
         angkaPertama = 0;
         angkaKedua = 0;
         angkaKetiga = 0;
