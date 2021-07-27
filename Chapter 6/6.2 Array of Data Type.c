@@ -12,10 +12,10 @@
 // Main function
 int main(){
 
-    // Array of integer
+    // Declaration array of integer
     int arrayOfInteger[99];
 
-    // Array of char
+    // Declaration array of char
     char arrayOfChar[99];
 
     // Assignment value to array of integer

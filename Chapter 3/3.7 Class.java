@@ -12,7 +12,7 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Class inisialization
+        // Class instantiation
         Titik p1 = new Titik();
 
         // Class inisialization

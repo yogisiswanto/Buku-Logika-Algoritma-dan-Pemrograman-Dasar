@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable instantiation
+    // Variable declaration
     int bilBulat;
 
     // Get input from console. Example = 5

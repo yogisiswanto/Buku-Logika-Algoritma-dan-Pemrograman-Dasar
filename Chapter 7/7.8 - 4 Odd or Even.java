@@ -17,6 +17,7 @@ public class Main{
         // Variable instantiation
         int angkaPertama, angkaKedua, hasil;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan dua buah bilangan bulat lalu tekan enter untuk setiap angkanya");

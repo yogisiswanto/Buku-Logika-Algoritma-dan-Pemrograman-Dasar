@@ -12,11 +12,15 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable declaration & inisialization
-        char first = '1';
-        char second = '2';
+        // Variable declaration
+        char first;
+        char second;
         char result;
         int temporary;
+
+        // Variable inisialization
+        first = '1';
+        second = '2';
         
         // Casting each char and store to integer
         temporary = (int) first + (int) second;

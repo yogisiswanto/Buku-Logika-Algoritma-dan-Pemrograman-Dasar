@@ -11,7 +11,7 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable inisialization
+        // Variable declaration & inisialization
         boolean ketemu = true;
 
         // Condition when ketemu is equal with true

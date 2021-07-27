@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable instantiation
+    // Variable declaration
     int a;
     int b;
     int c;

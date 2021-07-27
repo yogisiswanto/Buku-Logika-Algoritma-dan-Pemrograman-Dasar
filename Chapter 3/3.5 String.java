@@ -12,7 +12,7 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration
         String string = "";
 
         // Variable inisialization

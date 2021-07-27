@@ -9,7 +9,7 @@
 
 public class Point{
 
-    // Variable instantiation
+    // Variable declaration
     private float x;
     private float y;
 

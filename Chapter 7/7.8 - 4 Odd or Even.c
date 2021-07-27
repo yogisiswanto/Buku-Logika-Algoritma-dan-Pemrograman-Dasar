@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable instantiation
+    // Variable declaration
     int angkaPertama, angkaKedua, hasil;
 
     printf("Masukan dua buah bilangan bulat lalu tekan enter untuk setiap angkanya\n");

@@ -14,8 +14,10 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration
         int bilBulat = 0;
+
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         // Get input from console. Example = 5

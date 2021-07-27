@@ -14,9 +14,10 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable inisialization
+        // Variable declaration & inisialization
         int hari = 0;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         // Get input from console. Example 7

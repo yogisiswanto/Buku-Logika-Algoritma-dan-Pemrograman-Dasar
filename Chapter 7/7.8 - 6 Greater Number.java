@@ -14,9 +14,10 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration
         int angkaPertama, angkaKedua, angkaKetiga;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         angkaPertama = 0;

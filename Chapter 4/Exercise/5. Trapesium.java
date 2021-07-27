@@ -14,12 +14,13 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration & inisialization
         int alas = 0;
         int atas = 0;
         int tinggi = 0;
         double luas = 0;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan sisi alas, sisi atas, tinggi satu persatu, lalu tekan enter");

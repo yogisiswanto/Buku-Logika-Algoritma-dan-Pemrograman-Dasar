@@ -14,6 +14,8 @@ int main(){
 
     // Variable declaration
     int angkaPertama, angkaKedua, hasil, menu;
+
+    // Variable inisialization
     hasil = 0;
 
     printf("Masukan dua buah angka, untuk setiap angka tekan enter\n");

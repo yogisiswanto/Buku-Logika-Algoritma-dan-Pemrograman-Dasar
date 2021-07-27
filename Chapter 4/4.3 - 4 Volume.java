@@ -14,12 +14,13 @@ public class Volume{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration & inisialization
         int p = 0;
         int l = 0;
         int t = 0;
         int v = 0;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan panjang, lebar, tinggi lalu tekan enter untuk setiap angka");

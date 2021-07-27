@@ -14,9 +14,10 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration & inisialization
         int bilangan = 0;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("masukkan bilangan:");

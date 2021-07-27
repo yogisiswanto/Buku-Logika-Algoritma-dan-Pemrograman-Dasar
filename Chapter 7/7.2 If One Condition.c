@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable inisialization
+    // Variable declaration
     int ketemu = 1;
 
     // Condition when ketemu is equal with 1

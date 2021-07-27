@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable inisialization
+    // Variable declaration
     int hari;
 
     // Get input from console. Example 7

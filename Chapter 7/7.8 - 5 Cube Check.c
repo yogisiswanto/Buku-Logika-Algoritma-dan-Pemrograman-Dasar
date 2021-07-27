@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable instantiation
+    // Variable declaration
     int sisiPertama, sisiKedua, sisiKetiga;
 
     printf("Masukan ketiga sisi\n");

@@ -14,9 +14,10 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration and inisialization
         int firstInput = 0, secondInput = 0, add = 0, substraction = 0, multiplication = 0, divide = 0;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan");

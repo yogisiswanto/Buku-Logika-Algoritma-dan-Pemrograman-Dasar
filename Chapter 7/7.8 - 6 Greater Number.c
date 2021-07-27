@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable instantiation
+    // Variable declaration
     int angkaPertama, angkaKedua, angkaKetiga;
 
     printf("Masukan ketiga bilangan\n");

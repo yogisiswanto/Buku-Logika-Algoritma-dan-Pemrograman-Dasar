@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable instantiation
+    // Variable declaration
     int firstInput, secondInput, add, substraction, multiplication, divide;
 
     printf("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan\n");

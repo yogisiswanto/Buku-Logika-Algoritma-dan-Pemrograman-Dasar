@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable instantiation
+    // Variable declaration
     char nilai;
 
     printf("Masukan karakter:\n");

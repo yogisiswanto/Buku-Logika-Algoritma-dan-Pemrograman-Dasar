@@ -1,5 +1,3 @@
 1. Tipe data adalah jenis data berdasarkan isi dan sifatnya. Secara logika, tipe data adalah jenis dari sesuatu yang dapat dimasukan ke dalam kotak kosong yang hanya khusus dibuat untuk jenis benda dengan jenis tertentu
 
 2. Bilangan integer diperlukan untuk menyatakan bilangan yang tidak membutuhkan ketelitian.
-
-3. 

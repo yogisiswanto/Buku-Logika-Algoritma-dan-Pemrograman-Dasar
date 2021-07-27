@@ -12,7 +12,7 @@
 // Main function
 int main(){
 
-    // Variable instantiation
+    // Variable declaration
     int luas, panjang, lebar;
 
     printf("Masukan dua angka satu persatu, tekan enter setiap selesai memasukkan\n");

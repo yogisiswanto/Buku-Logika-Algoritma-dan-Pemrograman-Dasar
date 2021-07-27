@@ -10,7 +10,7 @@
 //  Class of titik
 class Titik{
 
-    // Variable instantiation
+    // Variable declaration
     double x;
     double y;
     

@@ -23,6 +23,7 @@ public class Main{
         b = '\0';
         c = '\0';
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan 3 huruf lalu tekan enter setiap setelah memasukan 1 huruf");

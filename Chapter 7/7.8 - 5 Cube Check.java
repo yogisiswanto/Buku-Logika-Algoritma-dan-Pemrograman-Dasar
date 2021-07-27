@@ -14,9 +14,10 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration
         int sisiPertama, sisiKedua, sisiKetiga;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan ketiga sisi");

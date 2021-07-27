@@ -14,9 +14,8 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable declaration
+        // Variable instantiation
         int[] input = new int[5];
-
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan lima buah angka satu persatu, tekan enter setiap selesai memasukkan");

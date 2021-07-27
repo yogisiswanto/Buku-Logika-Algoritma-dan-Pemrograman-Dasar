@@ -18,6 +18,7 @@ public class Main{
         int a, b, c;
         boolean tanda;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan 3 angka lalu tekan enter setiap setelah memasukan 1 huruf");

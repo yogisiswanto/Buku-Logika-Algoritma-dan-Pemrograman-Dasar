@@ -17,6 +17,7 @@ public class Main{
         // Variable declaration
         int angkaPertama, angkaKedua, hasil, menu;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         angkaPertama = 0;

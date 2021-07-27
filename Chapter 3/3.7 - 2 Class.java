@@ -9,7 +9,7 @@
 
 public class Pukul{
 
-    // Variable instantiation
+    // Variable declaration
     private int jam;
     private int menit;
     private int detik;

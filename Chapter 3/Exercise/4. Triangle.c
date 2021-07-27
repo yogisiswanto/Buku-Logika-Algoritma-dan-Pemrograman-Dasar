@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 
-// Struct initialization
+// Struct declaration
 typedef struct{
     int x;
     int y;

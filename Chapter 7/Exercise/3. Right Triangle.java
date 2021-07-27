@@ -17,6 +17,7 @@ public class Main{
         // Variable declaration
         int alas, tinggi, sisiMiring;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         alas = 0;

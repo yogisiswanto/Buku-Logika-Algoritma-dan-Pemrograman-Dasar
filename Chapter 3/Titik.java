@@ -9,7 +9,7 @@
 
 public class Titik{
 
-    // Variable instantiation
+    // Variable declaration
     private float x;
     private float y;
 

@@ -14,11 +14,12 @@ public class Main{
     // Main function
     public static void main(String[] args){
 
-        // Variable instantiation
+        // Variable declaration & inisialization
         int a = 0;
         int t = 0;
         double l = 0;
 
+        // Variable instantiation
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Masukan alas dan tinggi lalu tekan enter untuk setiap angka");
@@ -34,7 +35,7 @@ public class Main{
         }
 
         // Calculate area of triangle
-        l = 0.5 * (float)a * (float)t;
+        l = 0.5 * (float) a * (float) t;
         
         // Print to console
         System.out.println(l);

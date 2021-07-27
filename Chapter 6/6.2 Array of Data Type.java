@@ -11,10 +11,10 @@ public class Main{
 
     public static void main(String[] args){
 
-        // Array of integer
+        // Instantiation array of integer
         int[] arrayOfInteger = new int[99];
 
-        // Array of char
+        // Instantiation array of char
         char[] arrayOfChar = new char[99];
     
         // Assignment value to array of integer
