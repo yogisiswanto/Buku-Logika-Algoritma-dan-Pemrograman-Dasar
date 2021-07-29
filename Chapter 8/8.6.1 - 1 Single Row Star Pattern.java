@@ -25,6 +25,7 @@ public class Main{
 		// Variable declaration
 		int penghitung, bintang;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Masukan banyaknya bintang:");

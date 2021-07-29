@@ -25,6 +25,7 @@ public class Main{
 		// Variable declaration
 		int berapa_kali, hasil_jumlah, penghitung;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		// Variable initialization

@@ -30,7 +30,7 @@ typedef struct
 // Main function
 int main()
 {
-	// Variable declaration
+	// Variable instantiation
 	segitiga triangle;
 
 	// Get input from console

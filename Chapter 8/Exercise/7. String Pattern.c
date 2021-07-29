@@ -35,6 +35,7 @@ int main()
 	char string[99][99];
 	int banyak, baris, kolom, panjang;
 
+	// Variable insialization
 	panjang = 0;
 
 	// Get input from console

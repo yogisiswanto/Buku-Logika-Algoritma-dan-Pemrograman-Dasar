@@ -44,6 +44,7 @@ public class Main{
 		int[] arrayInteger = new int[5];
 		boolean ketemu = false;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		// Loop for getting input from console

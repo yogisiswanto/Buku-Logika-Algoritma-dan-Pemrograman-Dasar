@@ -31,9 +31,10 @@ public class Main{
 	// Main function
 	public static void main(String[] args) {
 		
-		// Variable declaration
+		// Variable declaration & inisialization
 		int banyak = 0;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Masukan banyaknya angka:");

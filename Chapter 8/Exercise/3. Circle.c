@@ -27,7 +27,7 @@ typedef struct
 // Main function
 int main()
 {
-	// Variable declaration	
+	// Variable insialization	
 	lingkaran lingkaran;
 
 	// Get input from console

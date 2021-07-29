@@ -25,9 +25,10 @@ public class Main{
 		// Variable declaration
 		char jawaban;
 
-		// Getting input from console first, and then check
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
+		// Getting input from console first, and then check
 		do{
 		
 			System.out.println("Halo dunia!");

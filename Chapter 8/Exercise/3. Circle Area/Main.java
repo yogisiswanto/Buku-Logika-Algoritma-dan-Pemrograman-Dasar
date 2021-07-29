@@ -22,11 +22,11 @@ public class Main{
 	// Main function
 	public static void main(String[] args) {
 
-		// Variable declaration	
+		// Variable declaration & inisialization	
 		int r = 0;
 		
+		// Variable instantiation
 		Circle circle = new Circle();
-
 		Scanner sc = new Scanner(System.in);
 
 		// Get input from console

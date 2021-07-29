@@ -29,6 +29,7 @@ public class Main{
 		int banyak, baris, kolom, before;
 		float jumlah, temp, total;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		// Variable inisialization

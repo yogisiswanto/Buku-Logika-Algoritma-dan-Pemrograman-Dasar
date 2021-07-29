@@ -36,8 +36,10 @@ public class Main{
 		String[] string = new String[99];
 		int banyak, baris, kolom, panjang;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
+		// Variable inisialization
 		banyak = 0;
 		baris = 0;
 		kolom = 0;

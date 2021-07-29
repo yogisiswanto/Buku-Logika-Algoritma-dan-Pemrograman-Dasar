@@ -25,6 +25,7 @@ public class Main{
 		// Variable declaration
 		int fak_berapa, penghitung, hasil_faktorial;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		// Variable initialization

@@ -36,8 +36,10 @@ public class Main{
 		char[] character = new char[10];
 		int banyak, baris;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
+		// Variable inisialization
 		banyak = 0;
 		baris = 0;
 

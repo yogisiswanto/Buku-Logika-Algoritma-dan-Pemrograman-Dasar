@@ -23,11 +23,11 @@ public class Main{
 	// Main function
 	public static void main(String[] args) {
 
-		// Variable declaration
+		// Variable declaration & inisialization
 		int x = 0, y = 0;
 		
+		// Variable instantiation
 		Triangle segitiga = new Triangle();
-
 		Scanner sc = new Scanner(System.in);
 
 		// Get input from console

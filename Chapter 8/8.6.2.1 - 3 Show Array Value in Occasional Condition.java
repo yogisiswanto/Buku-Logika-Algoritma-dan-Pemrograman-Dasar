@@ -43,10 +43,11 @@ public class Main{
 	// Main function
 	public static void main(String[] args) {
 		
-		// Variable declaration
+		// Variable declaration & inisialization
 		int [] arrayInteger = new int[5];
 		int penghitung = 0;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		// Loop for getting input from console

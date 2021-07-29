@@ -30,10 +30,11 @@ public class Main{
 	// Main function
 	public static void main(String[] args) {
 		
-		// Variable declaration
+		// Variable declaration & inisialization
 		String string = "";
 		int baris = 0, kolom = 0, spasi = 0;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Masukan angka:\n");

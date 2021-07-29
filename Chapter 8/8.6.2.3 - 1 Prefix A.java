@@ -34,10 +34,11 @@ public class Main{
 	// Main function
 	public static void main(String[] args) {
 		
-		// Variable declaration
+		// Variable declaration & inisialization
 		String[] string = new String[10];
 		int penghitung = 0;
 
+		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
 
 		// Loop getting input from console
