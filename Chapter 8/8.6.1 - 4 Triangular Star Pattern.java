@@ -43,7 +43,7 @@ public class Main{
 
 		}
 
-		// Loop for star print for top part
+		// Loop for star print of top part
 		/* 
 		 * 	*****
 		 *   *****
@@ -66,7 +66,7 @@ public class Main{
 			System.out.println();
 		}
 
-		// Loop for star print for middle part
+		// Loop for star print of middle part
 		//     *****
 		if (bintang % 2 == 1)
 		{
@@ -85,7 +85,7 @@ public class Main{
 			System.out.println();
 		}
 
-		// Loop for star print for bottom part
+		// Loop for star print of bottom part
 		/* 
 		 *   *****
 		 *  *****

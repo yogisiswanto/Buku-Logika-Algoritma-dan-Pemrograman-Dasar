@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Char Pattern
+ *  Name Program    : Reverse Character Print
  *  Purpose         : Answer question from exercise Chapter 8 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com

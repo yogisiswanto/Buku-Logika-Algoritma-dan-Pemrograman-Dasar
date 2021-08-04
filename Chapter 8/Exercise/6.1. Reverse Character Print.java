@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Char Pattern
+ *  Name Program    : Reverse Character Print
  *  Purpose         : Answer question from exercise Chapter 8 from Logic Algorithm and Basic Programming Book
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -12,13 +12,13 @@
  * 
  * 	Output
  * 	------
- * 	g
- *   e
- *    m
+ * 	     a
+ *       l
+ *      a
  *     b
- *    a
- *   l
- *  a
+ *    m
+ *   e
+ *  g
  */
 
 import java.util.Scanner;
@@ -51,40 +51,21 @@ public class Main{
 		}
 
 		// Length inisialization
-		panjang =  string.length();
-		spasi = panjang / 2;
+		panjang = string.length() - 1;
+		spasi = panjang - 1;
 
 		// Loop for print pattern
-		/* 
-		* 	g
-		*   e
-		*    m
-		*/
-		for (baris = 0; baris < spasi; baris++)
+		for (baris = panjang; baris >= 0; baris--)
 		{
-			
-			for (kolom = 0; kolom < baris; kolom++)
+			// Decrement white space
+			if (baris < panjang - 1)
 			{
-				
-				System.out.print(" ");
+				spasi--;
 			}
 
-			System.out.println(string.charAt(baris));
-		}
-
-		// Loop for print pattern
-		/* 
-		*     b
-		*    a
-		*   l
-		*  a
-		*/
-		for (baris = spasi; baris < panjang; baris++)
-		{
-			
-			for (kolom = 1; kolom < (panjang - baris); kolom++)
+			// Print white space
+			for (kolom = 0; kolom < spasi; kolom++)
 			{
-				
 				System.out.print(" ");
 			}
 

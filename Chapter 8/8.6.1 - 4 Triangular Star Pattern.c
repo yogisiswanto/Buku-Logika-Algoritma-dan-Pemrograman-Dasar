@@ -32,7 +32,7 @@ int main(){
 	// Get input from console
 	scanf("%d", &bintang);
 
-	// Loop for star print for top part
+	// Loop for star print of top part
 	/* 
 	 * 	*****
  	 *   *****
@@ -55,7 +55,7 @@ int main(){
 		printf("\n");
 	}
 
-	// Loop for star print for middle part
+	// Loop for star print of middle part
 	//     *****
 	if (bintang % 2 == 1)
 	{
@@ -74,7 +74,7 @@ int main(){
 		printf("\n");
 	}
 
-	// Loop for star print for bottom part
+	// Loop for star print of bottom part
 	/* 
 	 *   *****
 	 *  *****

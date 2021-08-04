@@ -44,14 +44,12 @@ int main()
 	// Loop for print character like stair
 	for (baris = 0; baris < strlen(string); baris++)
 	{
-		for (kolom = 0; kolom < spasi; kolom++)
+		for (kolom = 0; kolom < baris; kolom++)
 		{
 			printf(" ");
 		}
 
 		printf("%c\n", string[baris]);
-
-		spasi++;
 	}
 
 	return 0;
