@@ -1,5 +1,5 @@
 /*
- *  Name Program    : Quartet Multiplication
+ *  Name Program    : Swap Number
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 10
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
@@ -8,14 +8,12 @@
  * 
  * 	Input
  * 	-----
- *  1 
+ *  1
  *  2
- *  3
- * 4
  * 
  * 	Output
  * 	------
- *  24
+ * 	First Number = 2 - Second Number = 1 
  */
 
 import java.util.Scanner;
@@ -46,7 +44,7 @@ public class Main{
         firstNumber = function.getSecondNumber();
         secondNumber = function.getFirstNumber();
 
-        System.out.println("First Number = " + firstNumber + " Second Number = " + secondNumber);
+        System.out.println("First Number = " + firstNumber + " - Second Number = " + secondNumber);
 	}
 }
 
