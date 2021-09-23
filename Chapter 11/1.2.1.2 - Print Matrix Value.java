@@ -4,7 +4,7 @@
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
  *  Date Created    : 30th August 2021
- *  Language        : C Language
+ *  Language        : Java Language
  * 
  * 	Input
  * 	-----

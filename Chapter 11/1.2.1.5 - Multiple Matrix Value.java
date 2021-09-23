@@ -1,9 +1,9 @@
 /*
- *  Name Program    : Copy Matrix Value
+ *  Name Program    : Multiple Matrix Value
  *  Purpose         : Try Code from Logic Algorithm and Basic Programming Book chapter 11
  *  Author          : Yogi Siswanto
  *  Email           : yogisiswanto.c2@gmail.com
- *  Date Created    : 30th August 2021
+ *  Date Created    : 22th September 2021
  *  Language        : Java Language
  * 
  * 	Input
@@ -14,13 +14,17 @@
  *  2
  *  3
  *  4
- * 
- * 	Output
- * 	------
  *  1
  *  2
  *  3
- *  4 
+ *  4
+ * 
+ * 	Output
+ * 	------
+ *  7
+ *  10
+ *  15
+ *  22 
  */
 
 import java.util.Scanner;
@@ -31,7 +35,7 @@ public class Main{
 	public static void main(String[] args) {
 		
 		// Variable declaration & inisialization
-        int row = 0, column = 0, incrementRow = 0, incrementColumn = 0;
+        int row = 0, column = 0, incrementRow = 0, incrementColumn = 0, increment = 0;
 
 		// Variable instantiation
 		Scanner sc = new Scanner(System.in);
@@ -47,17 +51,18 @@ public class Main{
         }
 
         // Variable declaration & inisialization
-        int matrix[][] = new int[row][column];
+        int firstMatrix[][] = new int[row][column];
         int secondMatrix[][] = new int[row][column];
+        int thirdMatrix[][] = new int[row][column];
 
-        // Fill matrix
+        // Fill first matrix
         for (incrementRow = 0; incrementRow < row; incrementRow++){
             
             for (incrementColumn = 0; incrementColumn < column; incrementColumn++){
                 
                 try{
 
-                    matrix[incrementRow][incrementColumn] = sc.nextInt();
+                    firstMatrix[incrementRow][incrementColumn] = sc.nextInt();
 
                 }catch(Exception e){
         
@@ -66,12 +71,35 @@ public class Main{
             
         }
 
-        // Copy matrix value
+        // Fill second matrix
         for (incrementRow = 0; incrementRow < row; incrementRow++){
             
             for (incrementColumn = 0; incrementColumn < column; incrementColumn++){
                 
-                secondMatrix[incrementRow][incrementColumn] = matrix[incrementRow][incrementColumn];
+                try{
+
+                    secondMatrix[incrementRow][incrementColumn] = sc.nextInt();
+
+                }catch(Exception e){
+        
+                }
+            }
+            
+        }
+
+        // Multiple matrix value
+        for (incrementRow = 0; incrementRow < row; incrementRow++){
+            
+            for (incrementColumn = 0; incrementColumn < column; incrementColumn++){
+
+                thirdMatrix[incrementRow][incrementColumn] = 0;
+
+                for(increment = 0; increment < row; increment++){
+
+                    thirdMatrix[incrementRow][incrementColumn] = thirdMatrix[incrementRow][incrementColumn] + (firstMatrix[incrementRow][increment] * secondMatrix[increment][incrementColumn]);
+
+                }
+                
             }
             
         }
@@ -81,7 +109,7 @@ public class Main{
             
             for (incrementColumn = 0; incrementColumn < column; incrementColumn++){
                 
-                System.out.println(matrix[incrementRow][incrementColumn]);
+                System.out.println(thirdMatrix[incrementRow][incrementColumn]);
             }
             
         }
